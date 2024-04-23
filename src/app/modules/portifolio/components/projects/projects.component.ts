@@ -22,44 +22,30 @@ export class ProjectsComponent {
   #dialog = inject(MatDialog);
   public arrayProjects = signal<IProjects[]>([
     {
-      src: 'assets/img/projects/vfull.png',
+      src: 'assets/img/projects/gitHub.svg',
       alt: '',
       title: 'Vida FullStack',
       width: '100px',
       height: '51px',
-      description: '<p>Atuação com PL/SQL em projetos para coleta de dados de estatistico e criação de mecanismo automatizado para inclusão do nono dígito em todas as linhas da operadora VIVO.',
+      description: '<p>Projeto angular com a disponibilização de projetos/experiencias obtidas por meio de estudos em cursos que fiz para melhoria e aperfeiçoamento da linguagem angular.</p>',
       links: [
         {
-          name: 'Conheça o Blog',
-          href: 'https://vidafullstack.com.br',
+          name: 'Conheça o Projeto',
+          href: 'https://github.com/eder15720/agular-portifolio',
         },
       ]
     },
     {
       src: 'assets/img/projects/vfull.png',
       alt: '',
-      title: 'Vida FullStack',
+      title: 'Linkedin',
       width: '100px',
       height: '51px',
-      description: '<p>Atuação com PL/SQL em projetos para coleta de dados de estatistico e criação de mecanismo automatizado para inclusão do nono dígito em todas as linhas da operadora VIVO.',
+      description: '<p>Projeto em JAva feito para aprendimzagem e aperfeiçoamento de padrões de projetos utilizados atualmente em diversos locais tanto para projetos para mercado de trabalho.</p>',
       links: [
         {
           name: 'Conheça o Blog',
-          href: 'https://vidafullstack.com.br',
-        },
-      ]
-    },
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt: '',
-      title: 'Vida FullStack',
-      width: '100px',
-      height: '51px',
-      description: '<p>Atuação com PL/SQL em projetos para coleta de dados de estatistico e criação de mecanismo automatizado para inclusão do nono dígito em todas as linhas da operadora VIVO.',
-      links: [
-        {
-          name: 'Conheça o Blog',
-          href: 'https://vidafullstack.com.br',
+          href: 'https://github.com/eder15720/workshopSpring3',
         },
       ]
     }
