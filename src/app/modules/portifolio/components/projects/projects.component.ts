@@ -31,7 +31,7 @@ export class ProjectsComponent {
       links: [
         {
           name: 'Conheça o Projeto',
-          href: 'https://github.com/eder15720/agular-portifolio',
+          href: 'https://github.com/eder15720/curso-angular-portifolio',
         },
       ]
     },
